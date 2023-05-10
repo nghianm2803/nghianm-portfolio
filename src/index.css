@@ -86,6 +86,10 @@ a :hover {
   /* color: var(--color-secondary); */
 }
 
+b {
+  color: #93e9be;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -124,7 +128,7 @@ img {
   }
 }
 /* Small devices */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
