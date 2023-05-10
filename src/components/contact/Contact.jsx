@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import { MdOutlineEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa";
 import { RiMessengerLine } from "react-icons/ri";
 import emailjs from "emailjs-com";
 
@@ -29,10 +29,10 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>nghianm2803@gmail.com</h5>
-            <a href="mailto:nghianm2803@gmail.com" target="_blank">
+            <FaTelegram className="contact__option-icon" />
+            <h4>Telegram</h4>
+            <h5>Minh Nghia</h5>
+            <a href="https://t.me/DooCharSiu" target="_blank">
               Send a message
             </a>
           </article>
