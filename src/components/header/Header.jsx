@@ -20,15 +20,15 @@ export const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h3>Hello I'm</h3>
         <h1>Minh Nghia</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h3 className="text-light">Frontend Developer</h3>
         <CTA />
-        {showScroll && (
+        {/* {showScroll && (
           <a href="#" className="scroll__top-btn" onClick={scrollTop}>
             Scroll Top
           </a>
-        )}
+        )} */}
       </div>
     </header>
   );

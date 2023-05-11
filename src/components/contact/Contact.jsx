@@ -23,16 +23,15 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
-
+      <h3>Get In Touch</h3>
+      <h1>Contact Me</h1>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <FaTelegram className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>Minh Nghia</h5>
-            <a href="https://t.me/DooCharSiu" target="_blank">
+            <a href="https://t.me/DooCharSiu" target="_blank" rel="noopener">
               Send a message
             </a>
           </article>
@@ -40,7 +39,7 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Minh Nghĩa</h5>
-            <a href="https://m.me/doocharsiu" target="_blank">
+            <a href="https://m.me/doocharsiu" target="_blank" rel="noopener">
               Send a message
             </a>
           </article>
@@ -50,7 +49,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Your emaill" required />
           <textarea name="message" rows="7" placeholder="Your message" required></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Submit
           </button>
         </form>
       </div>

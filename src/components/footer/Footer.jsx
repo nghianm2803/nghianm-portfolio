@@ -1,14 +1,6 @@
 import React from "react";
 import "./footer.css";
-import {
-  FaFacebookF,
-  FaSpotify,
-  FaGithub,
-  FaLinkedin,
-  FaTelegram,
-  FaInstagram,
-  FaFacebookMessenger,
-} from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedin, FaFacebookMessenger } from "react-icons/fa";
 import { AiFillGitlab } from "react-icons/ai";
 
 const Footer = () => {
@@ -32,35 +24,26 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.facebook.com/DooCharSiu/" target="_blank">
+        <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noopener">
           <FaFacebookF />
         </a>
-        <a href="https://m.me/doocharsiu" target="_blank">
+        <a href="https://m.me/doocharsiu" target="_blank" rel="noopener">
           <FaFacebookMessenger />
         </a>
-        <a href="https://open.spotify.com/user/313fgecrfragre6k4xxmcn42qo5u?si=36f538b841e14c50" target="_blank">
-          <FaSpotify />
-        </a>
-        <a href="https://gitlab.com/nghianm2803" target="_blank">
+        <a href="https://gitlab.com/nghianm2803" target="_blank" rel="noopener">
           <AiFillGitlab />
         </a>
-        <a href="https://github.com/nghianm2803" target="_blank">
+        <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/nghianm2803/" target="_blank">
+        <a href="https://www.linkedin.com/in/nghianm2803/" target="_blank" rel="noopener">
           <FaLinkedin />
-        </a>
-        <a href="https://t.me/DooCharSiu" target="_blank">
-          <FaTelegram />
-        </a>
-        <a href="https://www.instagram.com/doocharsiu/?hl=en" target="_blank">
-          <FaInstagram />
         </a>
       </div>
       <div className="footer__copyright">
         <p>
           &copy; 2023 Handcrafted by{" "}
-          <a href="https://github.com/nghianm2803" target="_blank">
+          <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
             NghiaNM
           </a>
         </p>

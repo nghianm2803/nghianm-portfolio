@@ -5,8 +5,8 @@ import MeAbout from "../../assets/me-about.png";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About me</h2>
+      <h3>Get to know</h3>
+      <h1>About me</h1>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -21,15 +21,15 @@ const About = () => {
           </h3>
           <h3>
             I'm on{" "}
-            <a href="https://github.com/nghianm2803" target="_blank">
+            <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
               Github
             </a>
             ,{" "}
-            <a href="https://www.facebook.com/DooCharSiu/" target="_blank">
+            <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noopener">
               Facebook
             </a>{" "}
             and{" "}
-            <a href="https://www.instagram.com/doocharsiu/?hl=en" target="_blank">
+            <a href="https://www.instagram.com/doocharsiu/?hl=en" target="_blank" rel="noopener">
               Instagram
             </a>
             .

@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  margin-top: 2rem;
 }
 
 .contact__options {
@@ -18,17 +19,19 @@
   border: 1px solid transparent;
   transition: var(--transition);
 }
-.contact__option:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-}
 
 .contact__option-icon {
+  color: var(--color-white);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
+.contact__option h4,h5 {
+  color: var(--color-white);
+}
+
 .contact__option a {
+  color: var(--color-white);
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
@@ -47,9 +50,9 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid var(--color-primary);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-light);
 }
 
 /* RESPONSIVE*/

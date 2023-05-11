@@ -22,7 +22,7 @@
 .experience__content {
   display: flex;
   flex-direction: row;
-  padding: 1rem 12rem;
+  padding: 1rem 16rem;
   gap: 2rem;
 
 }
