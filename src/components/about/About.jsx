@@ -14,12 +14,12 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <p>
+          <h3>
             👋 Hey, I am <b>Nguyen Minh Nghia </b> but you can call me <b>Doo</b>. A Frontend focused Web Developer
             building the Frontend of Websites that leads to the success of the overall product. My preferred tools are
             ReactJS.
-          </p>
-          <p>
+          </h3>
+          <h3>
             I'm on{" "}
             <a href="https://github.com/nghianm2803" target="_blank">
               Github
@@ -33,7 +33,7 @@ const About = () => {
               Instagram
             </a>
             .
-          </p>
+          </h3>
           <a href="#contact" className="btn btn-primary">
             Let's talk
           </a>
