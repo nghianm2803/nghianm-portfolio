@@ -10,7 +10,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={MeAbout} alt="About image" />
+            <img src={MeAbout} alt="About" />
           </div>
         </div>
         <div className="about__content">
@@ -21,15 +21,15 @@ const About = () => {
           </h3>
           <h3>
             I'm on{" "}
-            <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
+            <a href="https://github.com/nghianm2803" target="_blank" rel="noreferrer">
               Github
             </a>
             ,{" "}
-            <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noopener">
+            <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noreferrer">
               Facebook
             </a>{" "}
             and{" "}
-            <a href="https://www.instagram.com/doocharsiu/?hl=en" target="_blank" rel="noopener">
+            <a href="https://www.instagram.com/doocharsiu/?hl=en" target="_blank" rel="noreferrer">
               Instagram
             </a>
             .

@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF, FaGithub, FaLinkedin, FaFacebookMessenger } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillGitlab } from "react-icons/ai";
 
 const Footer = () => {
@@ -24,26 +24,23 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noopener">
+        <a href="https://www.facebook.com/DooCharSiu/" target="_blank" rel="noreferrer">
           <FaFacebookF />
         </a>
-        <a href="https://m.me/doocharsiu" target="_blank" rel="noopener">
-          <FaFacebookMessenger />
-        </a>
-        <a href="https://gitlab.com/nghianm2803" target="_blank" rel="noopener">
+        <a href="https://gitlab.com/nghianm2803" target="_blank" rel="noreferrer">
           <AiFillGitlab />
         </a>
-        <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
+        <a href="https://github.com/nghianm2803" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/nghianm2803/" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/nghianm2803/" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
       </div>
       <div className="footer__copyright">
         <p>
           &copy; 2023 Handcrafted by{" "}
-          <a href="https://github.com/nghianm2803" target="_blank" rel="noopener">
+          <a href="https://github.com/nghianm2803" target="_blank" rel="noreferrer">
             NghiaNM
           </a>
         </p>
