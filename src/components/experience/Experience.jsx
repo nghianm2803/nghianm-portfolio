@@ -4,7 +4,7 @@ import { ReactIcon, TsIcon, HtmlIcon, CssIcon, JsIcon } from "./Stack";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <div className="experience">
       <h3>What Skills I Have</h3>
       <h1>My Experience</h1>
       <div className="container experience__container">
@@ -16,7 +16,7 @@ const Experience = () => {
           <JsIcon />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

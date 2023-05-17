@@ -1,3 +1,13 @@
+.experience {
+  margin-top: 8rem;
+  height: 50vh;
+}
+.experience > h1,
+.experience > h3 {
+  text-align: center;
+  color: var(--color-light);
+}
+
 .experience_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
